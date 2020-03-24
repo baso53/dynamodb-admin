@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('partials/head') %> <%- include('partials/bootstrap-deps') %>
+  </head>
+  <body class="container">
+    <main>
+      <form method="post">
+        <div class="form-group">
+          <label for="endpoint">Endpoint</label>
+          <input
+            type="text"
+            class="form-control"
+            id="endpoint"
+            name="endpoint"
+          />
+        </div>
+        <div class="form-group">
+          <label for="region">Region</label>
+          <input type="text" class="form-control" name="region" />
+        </div>
+        <div class="form-group">
+          <label for="accessKeyId">Access Key</label>
+          <input type="text" class="form-control" name="accessKeyId" />
+        </div>
+        <div class="form-group">
+          <label for="secretAccessKey">Secret Access Key</label>
+          <input type="text" class="form-control" name="secretAccessKey" />
+        </div>
+        <div class="form-group">
+          <label for="table">Table</label>
+          <input type="text" class="form-control" name="table" />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
