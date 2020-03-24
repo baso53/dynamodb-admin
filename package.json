@@ -17,7 +17,10 @@
   },
   "keywords": [
     "DynamoDB",
-    "Dynamo"
+    "Dynamo",
+    "GUI",
+    "Table",
+    "Browser"
   ],
   "author": "Sebastijan Grabar <baso53@outlook.com>",
   "license": "MIT",

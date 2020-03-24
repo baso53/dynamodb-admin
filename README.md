@@ -8,19 +8,17 @@ The GUI works for both Local and AWS DynamoDB instances. The endpoint url is not
 
 ## Usage
 
-### Use as a globally installed app
-
 `npm install -g dynamodb-table-entries-browser`
 
 `dynamodb-table-entries-browser --open --port 8001`
 ```
 CLI Options:
- - --open / -o - opens server URL in a default browser on start
- - --port PORT / -p PORT -  Port to run on (default: 8001)
+ --open / -o - opens server URL in a default browser on start
+ --port PORT / -p PORT -  Port to run on (default: 8001)
 ```
 
 ## Screenshots
 
-![Home Page](github_assets/home_page.jpg)
+![Home Page](https://raw.githubusercontent.com/baso53/dynamodb-table-entries-gui/master/github_assets/home_page.jpg)
 
-![Table View](github_assets/table_view.jpg)
+![Table View](https://raw.githubusercontent.com/baso53/dynamodb-table-entries-gui/master/github_assets/table_view.jpg)
