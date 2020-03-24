@@ -10,10 +10,13 @@ parserOptions:
     sourceType: module
 plugins:
     - jest
+    - prettier
 extends:
     - 'eslint:recommended'
     - 'plugin:jest/recommended'
+    - 'prettier'
 rules:
+    prettier/prettier: error
     curly: error
     dot-notation: error
     eol-last: error
