@@ -1,5 +1,5 @@
 {
-  "name": "dynamodb-admin",
+  "name": "dynamodb-table-entries-gui",
   "version": "3.2.0",
   "description": "GUI for DynamoDB. Useful for local development.",
   "main": "lib/backend.js",
@@ -19,12 +19,12 @@
     "DynamoDB",
     "Dynamo"
   ],
-  "author": "Aaron Shafovaloff <aaronshaf@gmail.com>",
+  "author": "Sebastijan Grabar <baso53@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aaronshaf/dynamodb-viewer/issues"
+    "url": "https://github.com/baso53/dynamodb-table-entries-gui/issues"
   },
-  "homepage": "https://github.com/aaronshaf/dynamodb-viewer#readme",
+  "homepage": "https://github.com/baso53/dynamodb-table-entries-gui",
   "dependencies": {
     "@types/express": "^4.17.3",
     "argparse": "^1.0.10",
