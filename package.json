@@ -1,6 +1,6 @@
 {
   "name": "dynamodb-table-entries-gui",
-  "version": "3.2.0",
+  "version": "3.2.2",
   "description": "GUI for DynamoDB. Useful for local development.",
   "main": "lib/backend.js",
   "bin": "./bin/dynamodb-admin.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aaronshaf/dynamodb-viewer.git"
+    "url": "git+https://github.com/baso53/dynamodb-table-entries-gui.git"
   },
   "keywords": [
     "DynamoDB",
